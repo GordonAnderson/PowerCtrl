@@ -1,7 +1,7 @@
 //
 // PowerCtrl
 //
-// Arduino Trinket M0
+// Adafruit Trinket M0
 //
 // This program is desiged to control the power control module for the e-msion ExD system desiged.
 // The power control module monitors the system power state and will automatically power the system
