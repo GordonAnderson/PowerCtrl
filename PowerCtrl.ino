@@ -71,11 +71,11 @@ PowerCtrl Rev_1_PowerCtrl = {
                             };
 
 extern void (*mySysTickHook)(void);
-void (*mySysTickHook)(void) = msTimerIntercept;
 void msTimerIntercept(void)
 {
 
 }
+void (*mySysTickHook)(void) = msTimerIntercept;
 
 void setup() 
 {    
